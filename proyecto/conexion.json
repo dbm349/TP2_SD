@@ -1,0 +1,6 @@
+{
+  "servidores": [
+              "localhost:9080",
+              "localhost:9081"
+            ]
+}
