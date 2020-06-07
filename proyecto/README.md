@@ -5,8 +5,8 @@ Trabajo Práctico 2 de Sistemas Distribuidos
 
 Ejecutar las siguientes clases respetando el orden:
 
--IniciarM.java
--IniciarP.java
+* IniciarM.java
+* IniciarP.java
 
 
 Crítica:
@@ -34,8 +34,8 @@ De esta manera las transacciones se fuerzan para que sean atómicas y que no se 
 
 Ejecutar las siguientes clases respetando el orden:
 
--Iniciar.java
--VariosClientes.java
+* Iniciar.java
+* VariosClientes.java
 
 Información sobre el ejercicio:
 
