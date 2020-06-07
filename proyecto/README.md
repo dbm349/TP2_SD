@@ -3,6 +3,20 @@ Trabajo Práctico 2 de Sistemas Distribuidos
 
 ## Ejercicio 1
 
+Ejecutar las siguientes clases respetando el orden:
+
+* IniciarM.java
+* IniciarP.java
+
+
+Crítica:
+La desventaja que encontramos de este modelo es que cada vez que se desea obtener algún recurso, se debe consultar al nodo master,
+lo cual, con una cantidad de nodos reducida no se nota problemático este proceso pero si esta cantidad comienza a incrementarse, todos los nodos estarían realizando consultas sobre el mismo Servidor Master y este se saturaría.
+
+Mejora:
+La alternativa que encontramos para evitar el problema planteado anteriormente, consiste en tener varios nodos master que respondan a las diferentes consultas de los nodos.
+Cada nodo podría tener asignado algunos nodos master a los cuales consultar, haciendo más eficiente las consultas.
+
 
 ## Ejercicio 2
 
@@ -17,6 +31,16 @@ Para solucionar el ejercicio A lo que se hizo fue sincronizar las partes de cód
 De esta manera las transacciones se fuerzan para que sean atómicas y que no se modifiquen entre ellas.
 
 ## Ejercicio 3
+
+Ejecutar las siguientes clases respetando el orden:
+
+* Iniciar.java
+* VariosClientes.java
+
+Información sobre el ejercicio:
+
+Forma de comunicación entre los nodos: RMI
+Tareas realizadas: suma y resta de vectores.
 
 
 ## Ejercicio 4
